@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #EAF6F6;
+  
+}
+
+.body {
+
+  transform: scale(93%)
+}
+
+h1 {
+  font-size: 7.5rem;
+  margin: 150px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: 2.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+}
+
+a {
+  color:  #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5ef7f7;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 40vh;
+}
+
+
+.middle-container {
+  background-color: white;
+  
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px 0 30px 0;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+}
+
+.profile  {
+  padding-top: 50px;
+}
+
+.cloud-1 {
+  position: absolute;
+  top: -170px;
+  right: 200px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.cloud-3 {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+
+}
+
+.cloud-4 {
+  position: absolute;
+  right: 150px;
+  top: 300px;
+
+}
+
+.cloud-5 {
+  position: absolute;
+  right: 150px;
+
+}
+
+.cloud-6 {
+  position: absolute;
+  left: 15px;
+  bottom: -190px;
+
+}
+
+.skill-row {
+  display:flex;
+  width: 50%;
+  text-align: left;
+  margin: 50px auto 100px auto;
+}
+
+.skill-title{
+  margin: 10px auto 10px auto;
+  width: 50%;
+  text-align: left;
+}
+
+
+.img1 {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 30%;
+}
+
+.img2 {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 30%;
+
+}
+
+.profile img {
+	border-radius: 50%;
+}
+
+hr {
+  color: grey;
+  background-color: white;
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 2px;
+  width: 5%;
+  margin: 70px auto 50px auto;
+}
+
+.hr2 {
+  margin-top: 0px;
+  position: relative;
+  
+}
+
+.contact-me {
+  padding-bottom: 100px;
+  line-height: 2;
+  margin: 20px auto 0px auto;
+}
+
+.footer-link  {
+  color: #11999E;
+  display: inline-block;
+  margin: 10px 20px 20px auto;
+}
+
+.card-group {
+	
+}
+
+.row {
+	width: 70%;
+  margin: 50px auto 100px auto;	
+}
+
+footer {
+  padding: 50px 0 20px 0;
+  background-color: #66BFBF;
+}
+
+ol {
+  width: 100%;
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  padding-top: 3vh;
+  
+}
+
+ol p {
+
+  position: relative;
+  display: inline-block;
+  padding: 0 .4em 0 .8em;
+  margin: 0 0 .5em 2.5em;
+  background: #D3D4DA;
+  color: #444;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  width: 70%;
+}
+
+ol p:hover {background: #DCDDE1;}       
+ol p:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #f9dd94;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+ol p:after {
+  position: absolute;
+  content: "";
+  border: .5em solid transparent;
+  left: -1em;
+  top: 50%;
+  margin-top: -.5em;
+  transition: all .3s ease-out;
+}
+
+ol p:hover:after {
+  left: -.5em;
+  border-left-color: #f9dd94;
+}
